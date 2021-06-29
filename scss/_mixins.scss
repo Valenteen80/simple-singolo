@@ -1,0 +1,18 @@
+@import "_variables.scss";
+@mixin mq-large-up {
+  @media (max-width: $screen-larger) {
+    @content;
+  }
+}
+
+@mixin mq-medium-up {
+  @media (max-width: $screen-medium) {
+    @content;
+  }
+}
+
+@mixin mq-small-up {
+  @media (max-width: $screen-small) {
+    @content;
+  }
+}
