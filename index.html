@@ -13,27 +13,15 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header-logo">
+    <div class="wrapper-header">
+      <header class="header">
+        <h1 class="header-logo">
         singolo<span class="header-logo-star">*</span>
-      </h1>
-      <nav id="menu-center">
-        <ul class="mainNav">
-          <li>
-            <a href="#modal" class="menu-btn">
-              <span></span>
-              <span></span>
-              <span></span>
-            </a>
-          </li>
-          <li><a href="#top" class="active">home</a></li>
-          <li><a href="#servise">servise</a></li>
-          <li><a href="#portfolio">portfolio</a></li>
-        </ul>
-        <div id="modal">
-          <ul class="modal__window">
+        </h1>
+        <nav id="menu-center">
+          <ul class="mainNav">
             <li>
-              <a href="#close" class="menu-btn-activ">
+              <a href="#modal" class="menu-btn">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -43,13 +31,27 @@
             <li><a href="#servise">servise</a></li>
             <li><a href="#portfolio">portfolio</a></li>
           </ul>
-          <div class="modal-header">
-            <span>singolo</span>
-            <span class="header-logo-star">*</span>
+          <div id="modal">
+            <ul class="modal__window">
+              <li>
+                <a href="#close" class="menu-btn-activ">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </li>
+              <li><a href="#top" class="active">home</a></li>
+              <li><a href="#servise">servise</a></li>
+              <li><a href="#portfolio">portfolio</a></li>
+            </ul>
+            <div class="modal-header">
+              <span>singolo</span>
+              <span class="header-logo-star">*</span>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+    </div>
     <div id="wrapper">
       <hr class="Lineafterheader" />
       <section id="top">
@@ -63,91 +65,88 @@
         </div>
       </section>
       <section id="servise">
-        <div class="Paragraph">
-          <h2 class="Paragraph-title">Our Services</h2>
-          <p class="Paragraph-content">
+        <div class="centering-servise">
+          <div class="Paragraph">
+            <h2 class="Paragraph-title">Our Services</h2>
+            <p class="Paragraph-content">
             Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
             Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
             lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
             tortor mauris condimentum nibh.
-          </p>
-        </div>
-        <div class="services">
-          <div class="services-item">
-            <div class="services-item-1">
-              <!-- <img src="icon/services-item-1--nocircle.svg" alt="icon" /> -->
-            </div>
-            <div class="services-item-Text">
-              <h2 class="services-item-Text-title">Custom Design</h2>
-              <p class="services-item-Text-content">
+            </p>
+          </div>
+          <div class="services">
+            <div class="services-item">
+              <div class="services-item-1">
+                <!-- <img src="icon/services-item-1--nocircle.svg" alt="icon" /> -->
+              </div>
+              <div class="services-item-Text">
+                <h2 class="services-item-Text-title">Custom Design</h2>
+                <p class="services-item-Text-content">
                 Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
                 laoreet, viverra lacus ut, ultrices velit.
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-
-          <div class="services-item">
-            <div class="services-item-2">
-              <!-- <img src="icon/services-item-2--nocircle.svg" alt="icon" /> -->
-            </div>
-            <div class="services-item-Text">
-              <h2 class="services-item-Text-title">Inovative Ideas</h2>
-              <p class="services-item-Text-content">
+            <div class="services-item">
+              <div class="services-item-2">
+                <!-- <img src="icon/services-item-2--nocircle.svg" alt="icon" /> -->
+              </div>
+              <div class="services-item-Text">
+                <h2 class="services-item-Text-title">Inovative Ideas</h2>
+                <p class="services-item-Text-content">
                 Quisque luctus, quam eget molestie commodo, lacus purus cursus
                 purus, nec rutrum tellus dolor id lorem.
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-
-          <div class="services-item">
-            <div class="services-item-3">
+            <div class="services-item">
+              <div class="services-item-3">
               <!-- <img src="icon/services-item-3--nocircle.svg" alt="icon" /> -->
-            </div>
-            <div class="services-item-Text">
-              <h2 class="services-item-Text-title">Love Is The Answer</h2>
-              <p class="services-item-Text-content">
+              </div>
+              <div class="services-item-Text">
+                <h2 class="services-item-Text-title">Love Is The Answer</h2>
+                <p class="services-item-Text-content">
                 Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
                 turpis, et consequat felis. Quisque condimentum.
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-
-          <div class="services-item">
-            <div class="services-item-4">
+            <div class="services-item">
+              <div class="services-item-4">
               <!-- <img src="icon/services-item-4--nocircle.svg" alt="icon" /> -->
-            </div>
-            <div class="services-item-Text">
-              <h2 class="services-item-Text-title">Responsive Layout</h2>
-              <p class="services-item-Text-content">
+              </div>
+              <div class="services-item-Text">
+                <h2 class="services-item-Text-title">Responsive Layout</h2>
+                <p class="services-item-Text-content">
                 Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
                 blandit nunc ligula. Praesent elit leo.
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-
-          <div class="services-item">
-            <div class="services-item-5">
+            <div class="services-item">
+              <div class="services-item-5">
               <!-- <img src="icon/services-item-5--nocircle.svg" alt="icon" /> -->
-            </div>
-            <div class="services-item-Text">
-              <h2 class="services-item-Text-title">24 / 7 Support</h2>
-              <p class="services-item-Text-content">
+              </div>
+              <div class="services-item-Text">
+                <h2 class="services-item-Text-title">24 / 7 Support</h2>
+                <p class="services-item-Text-content">
                 Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
                 Nulla a sem erat. Pellentesque egestas venenatis lorem .
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-
-          <div class="services-item">
-            <div class="services-item-6">
+            <div class="services-item">
+              <div class="services-item-6">
               <!-- <img src="icon/services-item-6--nocircle.svg" alt="icon" /> -->
-            </div>
-            <div class="services-item-Text">
-              <h2 class="services-item-Text-title">Feel Like A Star</h2>
-              <p class="services-item-Text-content">
+              </div>
+              <div class="services-item-Text">
+                <h2 class="services-item-Text-title">Feel Like A Star</h2>
+                <p class="services-item-Text-content">
                 Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
                 nibh. Fusce vitae aliquam tellus.
-              </p>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -183,31 +182,33 @@
         </div>
         <hr class="LineAfterPortfolio" />
       </section>
-      <footer class="footer">
-        <span>&copy; Copyright 2013</span>
-        <ul class="footer-linksSocialNetworks">
-          <li>
-            <a href="https://www.facebook.com">
-              <img src="icon/ico-facebook--nocircle.svg" alt="icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.gmail.com/">
-              <img src="icon/ico-google-plus--nocircle.svg" alt="icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://vk.com">
-              <img src="icon/ico-twitter--nocircle.svg" alt="icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/">
-              <img src="icon/ico-linkedin--nocircle.svg" alt="icon" />
-            </a>
-          </li>
-        </ul>
-      </footer>
+      <div class="wrapper-footer">
+        <footer class="footer">
+          <span>&copy; Copyright 2013</span>
+          <ul class="footer-linksSocialNetworks">
+            <li>
+              <a href="https://www.facebook.com">
+                <img src="icon/ico-facebook--nocircle.svg" alt="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gmail.com/">
+                <img src="icon/ico-google-plus--nocircle.svg" alt="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://vk.com">
+                <img src="icon/ico-twitter--nocircle.svg" alt="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/">
+                <img src="icon/ico-linkedin--nocircle.svg" alt="icon" />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

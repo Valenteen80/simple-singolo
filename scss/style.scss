@@ -11,13 +11,22 @@ body {
   font-family: $body-font;
 }
 
+.wrapper-header {
+  background-color: $dark-grey;
+}
+
+%centering {
+  max-width: 1020px;
+  margin: 0 auto;
+}
 
 .header {
-  position: fixed;
+  @extend %centering;
+  // position: fixed;
   top: 0;
   z-index: 2;
   text-transform: uppercase;
-  background-color: $dark-grey;
+  // background-color: $dark-grey;
   height: 89px;
   color: $white;
   display: flex;
@@ -209,13 +218,17 @@ body {
 
 .Lineafterheader {
   height: 6px;
-  background: #323746;
+  background: $light-black;
   margin: 0;
   border: none;
-  margin-top: 89px;
-  @include mq-medium-up {
-    margin-top: 71px;
-  }
+  // margin-top: 89px;
+  // @include mq-medium-up {
+  //   // margin-top: 71px;
+  // }
+}
+
+#top {
+  background: $rose-red;
 }
 
 .slider img {
@@ -232,7 +245,9 @@ body {
 }
 
 .slider {
+  @extend %centering;
   position: relative;
+
 }
 
 .slider .slick-arrow {
@@ -250,12 +265,20 @@ body {
 
 .slick-arrow.slick-prev {
   left: 3.9%;
-  background: url(/icon/arrow-left.svg) 0 0 / 100% no-repeat;
+  background: url(icon/arrow-left.svg) 0 0 / 100% no-repeat;
 }
 
 .slick-arrow.slick-next {
   right: 3.9%;
-  background: url(/icon/arrow-right.svg) 0 0 / 100% no-repeat;
+  background: url(icon/arrow-right.svg) 0 0 / 100% no-repeat;
+}
+
+#servise {
+  background-color: $white;
+}
+
+.centering-servise {
+  @extend %centering;
 }
 
 .Paragraph {
@@ -312,27 +335,27 @@ body {
 
     &-1 {
       @extend %services-items;
-      background-image: url(/icon/services-item-1--nocircle.svg);
+      background-image: url(icon/services-item-1--nocircle.svg);
     }
     &-2 {
       @extend %services-items;
-      background-image: url(/icon/services-item-2--nocircle.svg);
+      background-image: url(icon/services-item-2--nocircle.svg);
     }
     &-3 {
       @extend %services-items;
-      background-image: url(/icon/services-item-3--nocircle.svg);
+      background-image: url(icon/services-item-3--nocircle.svg);
     }
     &-4 {
       @extend %services-items;
-      background-image: url(/icon/services-item-4--nocircle.svg);
+      background-image: url(icon/services-item-4--nocircle.svg);
     }
     &-5 {
       @extend %services-items;
-      background-image: url(/icon/services-item-5--nocircle.svg);
+      background-image: url(icon/services-item-5--nocircle.svg);
     }
     &-6 {
       @extend %services-items;
-      background-image: url(/icon/services-item-6--nocircle.svg);
+      background-image: url(icon/services-item-6--nocircle.svg);
     }
     &-Text {
       width: 220px;
@@ -371,9 +394,14 @@ body {
   border: none;
 }
 
-.portfolio {
-  height: auto;
+#portfolio {
   background-color: $dark-grey;
+}
+
+.portfolio {
+  @extend %centering;
+  height: auto;
+  // background-color: $dark-grey;
   &-title {
     width: 130px;
     height: 40px;
@@ -480,8 +508,11 @@ body {
   border: none;
 }
 
-.footer {
+.wrapper-footer {
   background-color: $dark-grey;
+}
+.footer {
+  @extend %centering;
   color: #666d89;
   font-style: normal;
   font-weight: 900;
@@ -518,3 +549,11 @@ body {
     }
   }
 }
+// #servise {
+//   background-color: aqua;
+//   height: 100%;
+// }
+// .top {
+//   max-width: 1020px;
+//   margin: 0 auto;
+// }
