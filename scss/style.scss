@@ -22,11 +22,9 @@ body {
 
 .header {
   @extend %centering;
-  // position: fixed;
   top: 0;
   z-index: 2;
   text-transform: uppercase;
-  // background-color: $dark-grey;
   height: 89px;
   color: $white;
   display: flex;
@@ -211,20 +209,11 @@ body {
   }
 }
 
-//
-//
-//
-//
-
 .Lineafterheader {
   height: 6px;
   background: $light-black;
   margin: 0;
   border: none;
-  // margin-top: 89px;
-  // @include mq-medium-up {
-  //   // margin-top: 71px;
-  // }
 }
 
 #top {
@@ -291,7 +280,7 @@ body {
     height: 36px;
     margin: 59px 40px 0px 40px;
     color: #666d89;
-    font-weight: 900;
+    // font-weight: 900;
     line-height: 36px;
     font-size: $heading-font-second-level;
   }
@@ -300,7 +289,7 @@ body {
     margin: 18px 40px 0px 40px;
     color: #666d89;
     line-height: 36px;
-    font-weight: 900;
+    // font-weight: 900;
     max-width: 100%;
     display: block;
   }
@@ -368,7 +357,7 @@ body {
       }
       &-content {
         color: #666d89;
-        font-weight: 900;
+        // font-weight: 900;
         font-size: $body-font-size;
         line-height: 18px;
         display: flex;
@@ -401,7 +390,6 @@ body {
 .portfolio {
   @extend %centering;
   height: auto;
-  // background-color: $dark-grey;
   &-title {
     width: 130px;
     height: 40px;
@@ -549,11 +537,3 @@ body {
     }
   }
 }
-// #servise {
-//   background-color: aqua;
-//   height: 100%;
-// }
-// .top {
-//   max-width: 1020px;
-//   margin: 0 auto;
-// }

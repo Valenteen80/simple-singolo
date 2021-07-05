@@ -225,7 +225,6 @@ body {
   height: 36px;
   margin: 59px 40px 0px 40px;
   color: #666d89;
-  font-weight: 900;
   line-height: 36px;
   font-size: 1.875rem; }
 .Paragraph-content {
@@ -233,7 +232,6 @@ body {
   margin: 18px 40px 0px 40px;
   color: #666d89;
   line-height: 36px;
-  font-weight: 900;
   max-width: 100%;
   display: block; }
 
@@ -284,7 +282,6 @@ body {
         line-height: 18px; }
       .services-item-Text-content {
         color: #666d89;
-        font-weight: 900;
         font-size: 0.75rem;
         line-height: 18px;
         display: flex;
